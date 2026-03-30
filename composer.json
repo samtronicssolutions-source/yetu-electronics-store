@@ -1,0 +1,13 @@
+{
+    "name": "yetu/ecommerce",
+    "description": "Yetu E-commerce Platform",
+    "type": "project",
+    "require": {
+        "php": ">=7.4"
+    },
+    "scripts": {
+        "post-install-cmd": [
+            "@php database/migrate.php"
+        ]
+    }
+}
